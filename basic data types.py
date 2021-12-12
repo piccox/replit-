@@ -21,7 +21,7 @@ False
 
 
 
-#Coding excercise ;
+#Coding excercise;
 
 two_digit_number = input("type a two digit ")
 print(type(two_digit_number))
