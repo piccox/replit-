@@ -36,9 +36,11 @@ choice1 =input('you\'re at a crossroad, where do you want to go? Type "Left" or 
 
 if choice1 == "left":
   choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "swim" to swime across. Type "wait" to wait for a boat.').lower()
+
   if choice2 == "wait":
     #Game will continue 
     choice3 = input("You are arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. which colour do you choose?").lower()
+    
     if choice3 == "red":
       print('it\'s game over.')
     elif choice3 == "yellow":

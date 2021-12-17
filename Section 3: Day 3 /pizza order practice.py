@@ -21,19 +21,18 @@ bill = 0
 
 if size == "S": 
   bill += 15
-  print(bill)
-
+  #print(bill)
 elif size == "M": 
   bill += 20
-  print(bill)
+  #print(bill)
 elif size == "L": 
   bill += 25
-  print(bill)
+  #print(bill)
 
 if add_pepperani == "Y": 
   if size == "S":
     bill += 2
-    print(bill)
+    #print(bill)
   else:
     bill += 3
   
