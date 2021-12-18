@@ -1,17 +1,32 @@
 # Bankers who will pay the bill 
 
+
 import random
 
 name_string = input("Given me everybody's names, seperated by a comma. \n")
+
 names = name_string.split(", ") 
-len(name[])
+print(names)
 print(len(names))
 
-#total number of items in the list
-len(names)
-random.randint(0,x)
 
-#Angela, Bena, Jenny, Michael, Chloe
+num_items = len(names)
+random_choice = random.randint(0,num_items - 1)
+print(random_choice)
+
+person_who_will_pay = names[random_choice]
+print(person_who_will_pay + " going to buy the meal today. ")
+
+
+
+
+
+
+ 
+
+ 
+
+
 
 
 
