@@ -4,11 +4,11 @@
 
 
 student_heights = input("input a list of student heights \n").split(',')
-print(student_heights)
+#print(student_heights)
 
 
 for n in range(0,len(student_heights)):
-  print(n, student_heights[n])
+  #print(n, student_heights[n])
   student_heights[n] = int(student_heights[n])
 print(f"A list of student_heights: \n{student_heights}")
 

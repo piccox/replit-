@@ -1,12 +1,7 @@
-# concept of loops; 
-# for loops 
+# dkdjkjdkjdk
+# daj;ajdjadjkadj
+# dkaj;kdjkl;j
 
-fruits = ["apple", "peach", "pear"]
-
-for fruit in fruits: 
-  print(fruit)
-  print(fruit + " Pie")
-print(fruits)
 
 
 
