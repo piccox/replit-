@@ -3,15 +3,11 @@
 
 
 student_scores = input("input a list of student score \n").split(',')
-
-#print(student_scores)
-#print(type(student_scores))
-
-
+print(student_scores)
 
 
 for n in range(0, len(student_scores)):
-  #print(n, student_scores[n])
+  print(n, student_scores[n])
   student_scores[n] = int(student_scores[n])
 
 print(student_scores)
@@ -22,22 +18,24 @@ print(student_scores)
 
 print("Start loop")
 
-# hightest scores
-
 highest_score = 0
-h = []
-
+second_highest_score = 0 
+#h = []
 for scores in student_scores:
   
   if scores > highest_score: 
-    h.append(scores)
+    #h.append(scores)
     highest_score = scores
+
     print("now high score is ", highest_score)
+  
+  elif second_highest_score < scores :
+    second_highest_score = scores
+
 
   else:
     print(False)
-print(h)
-print(h[-1])
+
 print(f"The highest score in the class is : {highest_score}")
 
 
