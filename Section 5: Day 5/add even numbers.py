@@ -11,12 +11,11 @@ for s in range(1,101):
   #print(f" even {s} is {even_num}")
 print(f"Sum of the total is {even_num}")
 
- 
-   
 
 
+# Second method: Using step size 
+print("------------ ----------\n Using an other method: Step Size ") 
 
-print("------------ ----------\n using an other method: Step Size ") 
 total_even_numbers = 0
 for n in range(0,101,2): 
   total_even_numbers += n
