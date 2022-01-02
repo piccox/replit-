@@ -10,10 +10,16 @@
     ],
     "Section 5: Day 5/average height.py": [
       {
+        "id": "30269420-ea63-4ae0-99fe-52ffe94c2b26",
+        "line": 6,
+        "version": 2290,
+        "index": 179
+      },
+      {
         "id": "7742b80a-021f-4c34-95b5-be2f30fcfe03",
-        "line": 53,
-        "version": 2254,
-        "index": 1034
+        "line": 41,
+        "version": 2290,
+        "index": 965
       }
     ],
     "Section 5: Day 5/for loop with lists.py": [
