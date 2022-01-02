@@ -1,13 +1,10 @@
-# FizzBuzz job interview; logic to solve this problem 
 # FizzBuzz game 
 
 
 for n in range(0,101):
   if n%3 == 0 and n%5 == 0:
-    print(f"{n} is divided by 3 and 5 -------> 'FizzBuzz'") 
+    print(f"{n} is divided by 3 and 5 ----> 'FizzBuzz'") 
     print("FizzBuzz")
-
-
 
   else: 
     if n%3 == 0:
@@ -16,7 +13,9 @@ for n in range(0,101):
      print(f"{n} is divided by 5 ----> Buzz")
      
     else: 
-      print("number")
+      pass
+      #print("number")
+ 
 
 
 
