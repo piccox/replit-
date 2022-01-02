@@ -10,7 +10,7 @@ for n in range(0,len(student_heights)):
   student_heights[n] = int(student_heights[n])
 print(f"A list of student_heights: \n{student_heights} \n")
 
-print("----------------")
+print("--------")
 
 total_student_heights = 0
 for height in student_heights:
