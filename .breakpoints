@@ -29,6 +29,20 @@
         "version": 685,
         "index": 51
       }
+    ],
+    "Section 7: Day 7 /replaceblank.py": [
+      {
+        "id": "48d3de26-8486-4a77-90fd-4d7ccf7663a3",
+        "line": 6,
+        "version": 102,
+        "index": 93
+      },
+      {
+        "id": "a8e9961a-dca6-4f8b-bedb-235cf61af5bd",
+        "line": 8,
+        "version": 102,
+        "index": 146
+      }
     ]
   }
 }
