@@ -17,11 +17,13 @@ print(display)
 guess = input("Guess a letter: ").lower()
 
 #Todo 2, loop through each position in the chosen_word:
-for position in range(len(chosen_word)):
-  letter = chosen_word[position]
+for i in range(len(chosen_word)):
+  letter = chosen_word[i]
   if letter == guess: 
-    display[position] = letter 
-  print(display)
+    display[i] = letter 
+    #print(display)
+
+print(display)
 
  
     
