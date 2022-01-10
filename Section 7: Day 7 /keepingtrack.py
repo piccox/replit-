@@ -78,7 +78,7 @@ while not end_of_game:
 
     if letter == guess: 
       display[p] = letter 
-  print(stages[0])
+ 
 #Todo2, if guess is not a letter in the chosen_list, then reduce 'lives' by 1. Again, if lives goes down to 0, and then the game should stop and it should print "You lose!"
 
   if guess not in chosen_list: 
@@ -96,5 +96,6 @@ while not end_of_game:
     print("You win!")
 
 
+print(stages[0])
 
 
