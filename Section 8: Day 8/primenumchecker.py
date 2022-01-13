@@ -16,6 +16,7 @@ def prime_check(number):
   for x in range(2, number):
     if number % x == 0:
       is_prime = False
+      break
       
   
   if is_prime: 
