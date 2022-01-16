@@ -30,12 +30,13 @@ def encrypt(plain_text, shift_amount):
   cipher_text = ""
 
   for letter in plain_text: 
-    print(letter,plain_text)
+    print(f"check --> {letter},{plain_text}")
 
     position = alphabet.index(letter)
     new_position = position + shift_amount
     cipher_text += alphabet[new_position]
-  print(f"cyber_text ---->  {cipher_text}")
+    print("position-->",position,"new position ; ",new_position, "cipher text --->",cipher_text)
+  print(f"the final cyber_text code ---->  {cipher_text}")
 
 
 def decrypt(cipher_text,shift_amount):
