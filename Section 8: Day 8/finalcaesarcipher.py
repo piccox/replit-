@@ -17,14 +17,20 @@ def caesar(start_text, shift_amount, cipher_direction):
     #can you fix the code to keep the number/symbol/space when the text is encoded/decoded? 
   
   for char in start_text: 
+    #print(char,start_text)
     if char in alphabet: 
+      print(char,start_text)
       position = alphabet.index(char)
       new_position = position + shift_amount
       end_text += alphabet[new_position]
-      print(f"position --> {position}, new position ----> {new_position}, end text -------> {end_text}")
+      print(f"position --> {position}, new position --> {new_position}, end text --> {end_text}")
+    
     else:
       end_text += char
-  print(f"here is the cipher direction  {cipher_direction} this is an end text: {end_text }")
+
+  print(f"cipher direction --> {cipher_direction} AND end_text --> {end_text }\n")
+  print('-------------','\n')
+
 
 
 #Todo1 : import and print the logo from art.py when the program starts. 
@@ -37,7 +43,7 @@ print(logo)
 
 should_end = False
 while not should_end:
-
+  
   direction = input("Type 'encode' to encypt, Type 'decode' to decrypt \n")
   text = input("Type your message \n").lower()
   shift = int(input("Type the shift amount : \n"))
@@ -54,3 +60,6 @@ while not should_end:
   if restart == "no":
     should_end = True
     print("Goodbye")
+
+    
+

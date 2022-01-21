@@ -21,7 +21,7 @@ shift = int(input("Type the shift number: \n"))
 '''
   plain_text = "victoria"
   shift = 5
-  cipher_text = "mxxt"
+  cipher_text = "a"
   print output;"the encoded text is mxxt"
 
 '''
