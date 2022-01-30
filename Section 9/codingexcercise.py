@@ -1,12 +1,15 @@
 #a program that converts their scores to grades. 
 
 student_scores = {"Harry" : 81, "Ron": 78,"Hermione":91,"Draco":74,"Neville":62}
+print("student scores",student_scores)
+
 
 student_grades = {}
 for student in student_scores: 
-  print("scores --> ",student_scores,'\n')
-  
+
   scores = student_scores[student]
+  print(scores)
+  
   if scores > 90: 
     student_grades[student] = "Outstanding"
 
@@ -18,6 +21,13 @@ for student in student_scores:
 
   else: 
     student_grades[student] = "Fail"
+
 print(student_grades)
+ 
+
+ 
+
+
+
     
      
